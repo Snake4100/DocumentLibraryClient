@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.doc.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.doc.org schema.xsd">
+	<titre>Programmation C++</titre>
+	<resume>Cours et exercices pour devenir un expert du langage C++</resume>
+	<motcles>
+		<motcle>c++</motcle>
+		<motcle>langage</motcle>
+		<motcle>programmation</motcle>
+		<motcle>informatique</motcle>
+		<motcle>cours</motcle>
+		<motcle>exercices</motcle>
+	</motcles>
+	<section titre="introduction">Contenu de l'introduction</section>
+	<section titre="bases">Contenu du Chapitre 1 - Les bases du langage</section>
+	<section titre="notionsavancees">Contenu du Chapitre 2 - Notions avancées</section>
+	<section titre="complements">Contenu du Chapitre 3 - Compléments au C++</section>
+	<section titre="conclusion">Contenu de Conclusion</section>
+</article>

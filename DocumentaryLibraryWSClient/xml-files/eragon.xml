@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.doc.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.doc.org schema.xsd">
+ <titre>Eragon</titre>
+ <resume>Les aventures d'un jeune homme et de son dragon</resume>
+ <motcles>
+     <!-- au moins un mot-cle -->
+     <motcle>dragon</motcle>
+     <motcle>fantastique</motcle>
+ </motcles>
+ <!-- Pour chaque section, l'attribut 'titre' est obligatoire
+      et le contenu de la section doit etre du type xs:string -->
+ <section titre="introduction">Livre fantastique écrit par Christopher Paolini, sorti en 2001.</section>
+ <section titre="corps">Un jeune homme découvre un oeuf de dragon. Celui-ci fini par éclore et donne naissance à un dragon. Le héros partira ensuite à l'aventure avec son dragon.</section>
+ <section titre="conclusion">Un livre à lire.</section>
+</article>
