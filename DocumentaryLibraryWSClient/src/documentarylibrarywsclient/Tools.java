@@ -55,7 +55,7 @@ public class Tools {
      * @param lePdf objet pdf que l'on veut enregistrer en fichier pdf
      * @throws Exception
      */
-    public static void obtenerDocumentDeByte(Pdf lePdf) throws Exception {
+    public static void byteToDocument(Pdf lePdf) throws Exception {
         String fileName = repertoirePDFFiles+lePdf.getNom();
         FileOutputStream fos = new FileOutputStream(fileName);
         fos.write(lePdf.getContenu());

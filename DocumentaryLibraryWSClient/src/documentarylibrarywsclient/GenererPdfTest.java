@@ -47,7 +47,7 @@ public class GenererPdfTest {
         
         try{
             Pdf lePdf = WebServices.generePDF(Integer.valueOf(str));
-            Tools.obtenerDocumentDeByte(lePdf);
+            Tools.byteToDocument(lePdf);
         }
          catch (Exception ex) {
             System.out.println("Une erreur est survenue lors de la récuperation du pdf.");
